@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto";
   color:white;
 }
 body{
   background-color: rgb(69, 69, 165);
+  font-family: 'Poppins', sans-serif;
 }
 .one{
   padding: 20px;
@@ -52,6 +52,7 @@ select{
   color:grey;
   font-size: medium;
   background-color:white;
+  font-family: 'Poppins', sans-serif;
 
 }
 select option{

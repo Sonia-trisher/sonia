@@ -36,8 +36,13 @@ label{
   width: 90%;
   padding:8px;
   color: gray;
-  font-size: larger;
+  font-size: medium;
+  font-family: 'Poppins', sans-serif;
+  
 
+}
+.zero label{
+  font-family: 'Poppins', sans-serif;
 }
 
 select{
@@ -45,15 +50,21 @@ select{
   width: 90%;
   padding: 8px;
   color:grey;
-  font-size: larger;
+  font-size: medium;
+  background-color:white;
 
 }
+select option{
+  color:grey;
+  background-color: white;
+}
+
 form{
   padding:40px;
   margin: 0px 300px 0px 300px;
 background-color:#1a163b;
 display: block;
-font-size: larger;
+font-size: medium;
 }
 .three {
   justify-content: center;
@@ -63,6 +74,13 @@ font-size: larger;
 textarea {
   background-color:white;
   color: grey;
-  font-size: large;
+  font-size:medium;
+}
+button{
+  background-color:rgb(64, 175, 64);
+  width: 87%;
+  font-size: medium;
+  columns: 70px;
+  padding: 10px 0px 10px 0px;
 }
 
